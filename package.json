@@ -1,0 +1,9 @@
+{
+  "name": "codemod",
+  "scripts": {
+    "convert": "jscodeshift --extensions=ts --parser=ts src/index.ts"
+  },
+  "devDependencies": {
+    "jscodeshift": "^0.15.1"
+  }
+}
